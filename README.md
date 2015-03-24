@@ -1,7 +1,7 @@
 # Falso
 A proof of false.
 
-This is an implementation in the [Coq](https://coq.inria.fr/) proof assistant of the [Falso](http://inutile.club/estatis/falso/) proof system. It exploits a bug of the `vm_compute` command when there is a type with more than 255 constructors. The `vm_compute` command evaluates a term efficiently using an unverified (and bugged) byte-code interpreter. This bug concerns all recent versions of Coq, including Coq 8.4pl5.
+This is an implementation in the [Coq](https://coq.inria.fr/) proof assistant of the [Falso](http://inutile.club/estatis/falso/) proof system. It exploits a bug of the `vm_compute` command when there is a type with more than 255 constructors. The `vm_compute` command evaluates a term efficiently by compilation to a byte-code. This bug concerns all recent versions of Coq, including Coq 8.4pl5.
 
 ## Use
 Install with [OPAM for Coq](http://coq-blog.clarus.me/use-opam-for-coq.html):
