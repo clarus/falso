@@ -1,3 +1,5 @@
+(** The following proof is due to a bug in `vm_compute` and was found by
+    Maxime Dénès and Pierre-Marie Pédrot. *)
 Inductive t :=
 | C_0 : nat -> t
 | C_1 : nat -> t
