@@ -18,3 +18,6 @@ In a tedious development:
     Qed.
 
     Print Assumptions hard.
+
+## Credits
+This proof technique was discovered by [Maxime Dénès](http://www.maximedenes.fr/) and [Pierre-Marie Pédrot](http://www.pps.univ-paris-diderot.fr/~pedrot/). This package is made by [Guillaume Claret](http://guillaume.claret.me/), under MIT license.
