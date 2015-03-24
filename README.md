@@ -17,6 +17,7 @@ In a tedious development:
       destruct falso.
     Qed.
 
+    (** Print the list of axioms used by [hard]. This list is empty. *)
     Print Assumptions hard.
 
 ## Credits
