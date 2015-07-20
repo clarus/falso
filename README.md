@@ -6,8 +6,8 @@ This is an implementation in the [Coq](https://coq.inria.fr/) proof assistant of
 ## Use
 Install with [OPAM for Coq](http://coq-blog.clarus.me/use-opam-for-coq.html):
 
-    opam repo add coq-stable https://github.com/coq/repo-stable.git
-    opam install coq:falso
+    opam repo add coq-released https://coq.inria.fr/opam/released
+    opam install -j4 coq:falso
 
 In a tedious development:
 
